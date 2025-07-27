@@ -138,8 +138,7 @@ ul {
     border-radius: 8px;
 }
 .info{
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 .info #call{
     font-size: 24px;
