@@ -17,7 +17,6 @@ body {
     background: #1F2937;
     align-items: center;
 }
-
 .header-top{
     display: flex;
     align-items: center;
@@ -26,12 +25,10 @@ body {
 
     width: 100%;
 }
-
 #GAMER {
     font-size: 24px;
     font-weight: 900;
 }
-
 ul {
     display: flex;
     list-style: none;
@@ -39,7 +36,6 @@ ul {
     padding: 0;
     gap: 32px;
 }
-
 .header-bot {
     display: flex;
     justify-content: space-between;
@@ -48,12 +44,10 @@ ul {
     gap: 32px;
     padding: 24px 0;
 }
-
 #title {
     font-size: 48px;
     font-weight: 900;
 }
-
 .header-bot img{
     width: 35%;
     height: auto;
@@ -61,7 +55,6 @@ ul {
     object-fit: contain;
     display: block;
 }
-
 .header-bot button {
     border: none;
     border-radius: 8px;
@@ -70,13 +63,96 @@ ul {
     color: #F9FAF8;
     font-weight: 900;
 }
-
 .header-bot-content {
     display: flex;
     flex-direction: column;
     flex-basis: 600px;
     flex-wrap: wrap;
     gap: 16px;
+}
+
+.plot{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 32px;
+    gap: 48px;
+}
+.plot-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 48px;
+}
+.plot-content img{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #3882F6;
+    border-radius: 8px;
+}
+#plot-title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.text{
+    color: gray;
+    text-align: center;
+    max-width: 200px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 120px 0;
+    background: #E5E7EB;
+    color: #1F2937;
+}
+#big-quote{
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    width: 1000px;
+}
+#lil-quote{
+    font-size: 16px;
+}
+
+.action{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 32px;
+}
+.modal{
+    display: flex;
+    background: #3882F6;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 60px;
+    border-radius: 8px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info #call{
+    font-size: 24px;
+    font-weight: 900;
+}
+.modal button{
+    border-radius: 8px;
+    padding: 8px 16px;
+    background: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-style: solid;
+    font-weight: 900;
 }
 
 .footer {
@@ -89,8 +165,8 @@ ul {
     margin-top: auto;
 }
 
-.footer, a, #info{
+.footer, a, .info{
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
 }
